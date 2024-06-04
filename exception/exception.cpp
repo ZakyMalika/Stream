@@ -12,8 +12,8 @@ int main()
 	{
 		array<int, 3> data = { 6, 7, 8 };
 		// pesan array integer 3 element
-		cout << data.at(5) << endl;
-		//memanggil array ke elemnt ke 5
+		cout << data.at(2) << endl;
+		//memanggil array ke elemnt ke 2
 	}
 	catch (exception& e)
 	{
