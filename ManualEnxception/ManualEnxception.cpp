@@ -9,5 +9,8 @@ int main()
 		// throw 0.5; // melemparkan sebuah integer maka
 		cout << "Pernytaan tidak akan dieksekusi" << endl;
 	}
-	catch
+	catch (int a)
+	{
+		//blok ini akan dieksekusi
+	}
 }
