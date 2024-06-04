@@ -19,7 +19,11 @@ int main()
 	{
 		//penangkap	menggunakan objek exception
 		cout << e.what() << endl;
-		/*akan dieksekusi karna array data hanya */
+		/*akan dieksekusi karna array data hanya memiliki 3 elemnt*/
 	}
+	cout << "Baris Program Yang Terakhir" << endl;
+	/*Penanda 2: bahwa program berjalan tanpa berhenti
+	meskipun terjadi kesalahan*/
+	return 0;
 }
 
